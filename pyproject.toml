@@ -1,0 +1,95 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/Eisbrenner/wemake-python-package/master/styles/nitpick-style-wemake.toml"
+
+
+[tool.poetry]
+name = "ess-tracer-transit"
+version = "2021.1.0"
+description = "Visualization of tracers along a track into the northern North Sea coming from the subpolar North Atlantic."
+license = "GPL3"
+
+authors = []
+
+readme = "README.md"
+
+repository = "https://github.com/shelf-seas/ess-tracer-transit"
+
+keywords = []
+
+# https://pypi.org/classifiers/
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.dev-dependencies]
+# pre-commit dependencies are hard coded in .pre-commit-config.yaml
+pre-commit = "^2.6.0"
+mypy = "0.910"
+black = "21.10b0"
+isort = "5.10.0"
+flake8 = "3.9.2"
+
+# checks, formatting and linting
+wemake-python-styleguide = "^0.15"
+flake8-pytest-style = "^1.5"
+flake8-isort = "^4.1"
+nitpick = "^0.28"
+
+safety = "^1.10"
+
+pytest = "^6.2"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.8"
+pytest-sugar = "^0.9"
+
+sphinx = "^4.1"
+sphinx-autodoc-typehints = "^1.12"
+doc8 = "^0.9"
+m2r2 = "^0.3"
+tomlkit = "^0.7"
+
+# template updates
+cookiecutter = "^1.7"
+jinja2_git = "^1.1"
+lice = "^0.6"
+cruft = "^2.9"
+toml = "^0.10"
+
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | tests/.*/setup.py
+  | \.ipynb_checkpoints
+)/
+'''
+
+
+[tool.cruft]
+skip = ["src/ess_tracer_transit/__init__.py", "tests"]
