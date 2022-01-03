@@ -1,0 +1,5 @@
+outs:
+- md5: e9c191a486b90ed882927cf02cfaadc5.dir
+  size: 1068636667
+  nfiles: 330
+  path: cmems_mod_nws_phy-t_my_7km-3D_P1M-m
