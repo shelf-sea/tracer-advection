@@ -1,8 +1,8 @@
-# ess-tracer-transit
+# tracer-transit
 
-[![Build Status](https://github.com/shelf-seas/ess-tracer-transit/workflows/test/badge.svg?branch=master&event=push)](https://github.com/shelf-seas/ess-tracer-transit/actions?query=workflow%3Atest)
-[![codecov](https://codecov.io/gh/shelf-seas/ess-tracer-transit/branch/master/graph/badge.svg)](https://codecov.io/gh/shelf-seas/ess-tracer-transit)
-[![Python Version](https://img.shields.io/pypi/pyversions/ess-tracer-transit.svg)](https://pypi.org/project/ess-tracer-transit/)
+[![Build Status](https://github.com/shelf-seas/tracer-transit/workflows/test/badge.svg?branch=master&event=push)](https://github.com/shelf-seas/tracer-transit/actions?query=workflow%3Atest)
+[![codecov](https://codecov.io/gh/shelf-seas/tracer-transit/branch/master/graph/badge.svg)](https://codecov.io/gh/shelf-seas/tracer-transit)
+[![Python Version](https://img.shields.io/pypi/pyversions/tracer-transit.svg)](https://pypi.org/project/tracer-transit/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
 Visualization of tracers along a track into the northern North Sea coming from the subpolar North Atlantic.
@@ -17,7 +17,7 @@ Visualization of tracers along a track into the northern North Sea coming from t
 ## Installation
 
 ```bash
-pip install ess-tracer-transit
+pip install tracer-transit
 ```
 
 
@@ -34,7 +34,7 @@ print(some_function(3, 4))
 
 ## License
 
-[gpl3](https://github.com/shelf-seas/ess-tracer-transit/blob/master/LICENSE)
+[gpl3](https://github.com/shelf-seas/tracer-transit/blob/master/LICENSE)
 
 
 ## Credits

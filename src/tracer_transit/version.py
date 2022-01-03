@@ -11,7 +11,7 @@ def _get_version(dist_name: str) -> str:  # pragma: no cover
         return ""  # readthedocs can not install `poetry` projects
 
 
-pkg_name = "ess-tracer-transit"
+pkg_name = "tracer-transit"
 
 #: We store the version number inside the `pyproject.toml`:
 pkg_version: str = _get_version(pkg_name)

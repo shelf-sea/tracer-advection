@@ -8,7 +8,7 @@ style = "https://raw.githubusercontent.com/Eisbrenner/wemake-python-package/mast
 
 
 [tool.poetry]
-name = "ess-tracer-transit"
+name = "tracer-transit"
 version = "2021.1.0"
 description = "Visualization of tracers along a track into the northern North Sea coming from the subpolar North Atlantic."
 license = "GPL3"
@@ -17,7 +17,7 @@ authors = []
 
 readme = "README.md"
 
-repository = "https://github.com/shelf-seas/ess-tracer-transit"
+repository = "https://github.com/shelf-seas/tracer-transit"
 
 keywords = []
 
