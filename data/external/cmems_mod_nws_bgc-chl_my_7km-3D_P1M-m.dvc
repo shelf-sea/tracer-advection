@@ -1,0 +1,5 @@
+outs:
+- md5: af0353a1b56719d80b745a4899d46d73.dir
+  size: 800573657
+  nfiles: 342
+  path: cmems_mod_nws_bgc-chl_my_7km-3D_P1M-m

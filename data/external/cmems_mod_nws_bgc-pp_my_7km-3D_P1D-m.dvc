@@ -1,0 +1,5 @@
+outs:
+- md5: 5586bc7c428f0243fb5371402230e523.dir
+  size: 11115363352
+  nfiles: 10408
+  path: cmems_mod_nws_bgc-pp_my_7km-3D_P1D-m
